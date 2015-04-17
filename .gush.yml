@@ -1,0 +1,16 @@
+adapter: github
+issue_tracker: github
+pr_type:
+    - feature
+    - bugfix
+    - refactor
+    - tests
+    - remove
+    - style
+    - documentation
+    - security
+table-pr:
+    fixed_tickets: ['Fixed Tickets', '']
+    license: [License, MIT]
+base: master
+meta-header: "Copyright 2015 Company Name\n\nDistribution and reproduction are prohibited.\n\n@package     Your Package\n@copyright   Company Name 2015\n@license     No License (Proprietary)"
