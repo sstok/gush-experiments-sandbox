@@ -1,3 +1,4 @@
+# Gush configuration file, any comments will be lost.
 adapter: github
 issue_tracker: github
 pr_type:
@@ -14,3 +15,8 @@ table-pr:
     license: [License, MIT]
 base: master
 meta-header: "Copyright 2015 Company Name\n\nDistribution and reproduction are prohibited.\n\n@package     Your Package\n@copyright   Company Name 2015\n@license     No License (Proprietary)"
+repo_adapter: github
+repo_org: sstok
+repo_name: gush-experiments-sandbox
+issue_org: sstok
+issue_repo_name: gush-experiments-sandbox
