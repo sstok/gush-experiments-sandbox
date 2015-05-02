@@ -14,7 +14,7 @@ table-pr:
     fixed_tickets: ['Fixed Tickets', '']
     license: [License, MIT]
 base: master
-meta-header: "Copyright 2015 Company Name\n\nDistribution and reproduction are prohibited.\n\n@package     Your Package\n@copyright   Company Name 2015\n@license     No License (Proprietary)"
+meta-header: "This file is part of Testing Sandbox package.\n\n(c) 1980-2015 Doctor Who <who@bb.co.uk>\n\nThis source file is subject to the MIT license that is bundled\nwith this source code in the file LICENSE."
 repo_adapter: github
 repo_org: sstok
 repo_name: gush-experiments-sandbox
