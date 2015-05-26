@@ -1,15 +1,6 @@
 # Gush configuration file, any comments will be lost.
 adapter: github
 issue_tracker: github
-pr_type:
-    - feature
-    - bugfix
-    - refactor
-    - tests
-    - remove
-    - style
-    - documentation
-    - security
 table-pr:
     fixed_tickets: ['Fixed Tickets', '']
     license: [License, MIT]
