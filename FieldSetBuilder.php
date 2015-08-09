@@ -109,14 +109,14 @@ class FieldSetBuilder implements FieldSetBuilderInterface
             $options = array_merge(
                 $options,
                 [
-                    'model_class' => $modelClass,
+                    'model_class'    => $modelClass,
                     'model_property' => $modelProperty,
                 ]
             );
         }
 
         $this->unresolvedFields[$field] = [
-            'type' => $type,
+            'type'    => $type,
             'options' => $options,
         ];
 
@@ -223,13 +223,13 @@ class FieldSetBuilder implements FieldSetBuilderInterface
             $field->options = array_merge(
                 $field->options,
                 [
-                    'model_class' => $field->class,
+                    'model_class'    => $field->class,
                     'model_property' => $field->property,
                 ]
             );
 
             $this->unresolvedFields[$field->fieldName] = [
-                'type' => $field->type,
+                'type'    => $field->type,
                 'options' => $field->options,
             ];
         }

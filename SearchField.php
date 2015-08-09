@@ -39,8 +39,8 @@ class SearchField implements FieldConfigInterface
      * @var bool[]
      */
     private $supportedValueTypes = [
-        ValuesBag::VALUE_TYPE_RANGE => false,
-        ValuesBag::VALUE_TYPE_COMPARISON => false,
+        ValuesBag::VALUE_TYPE_RANGE         => false,
+        ValuesBag::VALUE_TYPE_COMPARISON    => false,
         ValuesBag::VALUE_TYPE_PATTERN_MATCH => false,
     ];
 

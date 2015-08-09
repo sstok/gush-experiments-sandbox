@@ -142,10 +142,10 @@ class ResolvedFieldType implements ResolvedFieldTypeInterface
     {
         $view = $this->newFieldView($config);
         $view->vars = array_merge($view->vars, [
-            'name' => $config->getName(),
-            'type' => $config->getType()->getName(),
-            'accept_ranges' => $config->supportValueType(ValuesBag::VALUE_TYPE_RANGE),
-            'accept_compares' => $config->supportValueType(ValuesBag::VALUE_TYPE_COMPARISON),
+            'name'                    => $config->getName(),
+            'type'                    => $config->getType()->getName(),
+            'accept_ranges'           => $config->supportValueType(ValuesBag::VALUE_TYPE_RANGE),
+            'accept_compares'         => $config->supportValueType(ValuesBag::VALUE_TYPE_COMPARISON),
             'accept_pattern_matchers' => $config->supportValueType(ValuesBag::VALUE_TYPE_PATTERN_MATCH),
         ]);
 
