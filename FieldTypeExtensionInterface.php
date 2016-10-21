@@ -27,7 +27,7 @@ interface FieldTypeExtensionInterface
      * @see FieldTypeInterface::buildType()
      *
      * @param FieldConfigInterface $builder The config builder
-     * @param array                $options The options
+     * @param array                $options   The options
      */
     public function buildType(FieldConfigInterface $builder, array $options);
 
