@@ -21,7 +21,7 @@ use Rollerworks\Component\Search\Extension\Core\CoreExtension;
  * <code>
  * use Rollerworks\Component\Search\Searches;
  *
- * $searchFactory = Searches::createSearchFactory();
+ * $searchFactory = Searches::cre   ateSearchFactory();
  *
  * $fieldSet = $searchFactory->createFieldSetBuilder('fieldset-name')
  *     ->add('firstName', 'text')

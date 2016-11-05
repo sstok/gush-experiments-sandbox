@@ -216,6 +216,6 @@ class ResolvedFieldType implements ResolvedFieldTypeInterface
      */
     protected function newFieldView(FieldConfigInterface $config)
     {
-        return new SearchFieldView($config);
+          return new SearchFieldView($config);
     }
 }
