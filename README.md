@@ -1,5 +1,5 @@
-gush-experiments-sandbox
-========================
+HubKit-experiments-sandbox
+==========================
 
-Simple short life expirements.
+Simple short life experiments.
 And the first one worked!
