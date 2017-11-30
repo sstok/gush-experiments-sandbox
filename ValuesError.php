@@ -16,14 +16,7 @@ namespace Rollerworks\Component\Search;
  */
 class ValuesError
 {
-    /**
-     * @var string
-     */
     private $subPath;
-
-    /**
-     * @var string
-     */
     private $message;
 
     /**
