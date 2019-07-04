@@ -32,7 +32,7 @@ return function (Container $container, Version $version, string $branch, ?string
 
     $style->warning([
         'Pull request '.$pr['html_url'].' was opened for this release.',
-        'The process will automatically continue once this pull request it merged.',
+        'The process will automatically continue once this pull request is merged.',
         '!! DO NOT ABORT THE COMMAND !!'
     ]);
 
@@ -46,7 +46,7 @@ return function (Container $container, Version $version, string $branch, ?string
         $progress->advance();
     }
 
-    if ($github->getPullRequest($pr['number'])['state'] === 'closed') {
+    if ($github->getPullRequest($pr['number'])['merged'] === false) {
         $progress->finish('Pull request was closed. Aborting.');
 
         exit(1);
