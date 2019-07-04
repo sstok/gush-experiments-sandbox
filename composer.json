@@ -1,0 +1,10 @@
+{
+    "name": "sebastiaanstok/experiments-sandbox",
+    "authors": [
+        {
+            "name": "Sebastiaan Stok",
+            "email": "s.stok@rollerscapes.net"
+        }
+    ],
+    "require": {}
+}
